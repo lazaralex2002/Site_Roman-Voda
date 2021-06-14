@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.galerie{
+	margin-left: 70px;
+	float: left ;
+	
+}
+.galerie img {
+	width: 350px ;
+	padding: 5px ;
+	filter: grayscale(0%) ;
+	transition: 1s ;
+}
+.galerie img:hover{
+	filter: grayscale(0%) ;
+	transform: scale(1.1);
+}
